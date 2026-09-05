@@ -1,0 +1,1453 @@
+# HAZEL INDIA — COMPLETE PREMIUM WEBSITE REDESIGN
+
+You are a **senior product designer, creative director, frontend architect and animation engineer**.
+
+Your task is to completely redesign and rebuild the existing Hazel India website into a **world-class, premium, highly polished corporate website**.
+
+Do NOT make this look like a generic SaaS landing page.
+
+The final result should feel like a combination of:
+
+* Premium sustainability brand
+* AI technology company
+* Enterprise facility-management company
+* High-end consulting company
+* Modern Apple-style product experience
+* Award-winning Awwwards / Framer / GSAP quality website
+
+The website must feel **expensive, trustworthy, futuristic, intelligent, environmentally conscious and enterprise-ready**.
+
+---
+
+# 1. SOURCE CONTENT
+
+The existing website content is already provided in the project/files.
+
+Use the existing Hazel India content as the source of truth.
+
+Do NOT invent major business claims, statistics, certifications, partnerships, customers or achievements.
+
+Preserve the existing business messaging and terminology while improving:
+
+* hierarchy
+* readability
+* storytelling
+* UX
+* visual presentation
+* section ordering
+* copy formatting
+* calls to action
+
+The existing site contains:
+
+* Header/navigation
+* Hero
+* About
+* Services
+* Projections/Roadmap
+* Machinery
+* Company identity
+* Target sectors
+* HazelAI
+* Green Promise
+* How it works
+* Lead capture
+* Footer
+
+Use these as the foundation, but redesign the entire experience.
+
+---
+
+# 2. FIRST: INSPECT THE EXISTING PROJECT
+
+Before changing anything:
+
+1. Inspect the complete repository.
+2. Identify:
+
+   * framework
+   * routing
+   * styling system
+   * existing components
+   * assets
+   * fonts
+   * dependencies
+   * environment variables
+3. Determine whether the project uses:
+
+   * React
+   * Next.js
+   * Vite
+   * Tailwind
+   * CSS modules
+   * plain CSS
+4. Preserve the existing working architecture where reasonable.
+5. Do NOT unnecessarily rewrite backend functionality.
+6. Reuse existing useful components/assets where appropriate.
+7. Remove obsolete UI only after understanding dependencies.
+
+Then create a clean component architecture.
+
+---
+
+# 3. REQUIRED TECHNOLOGY
+
+Use the project's existing framework if possible.
+
+Add/install whatever libraries are required to create the premium experience.
+
+Preferred stack:
+
+* React / Next.js
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* GSAP
+* GSAP ScrollTrigger
+* Lenis smooth scrolling
+* Lucide React icons
+* clsx / tailwind-merge where useful
+* Three.js / React Three Fiber ONLY where it genuinely improves the experience
+* @react-three/drei if 3D is used
+* Swiper if a carousel is genuinely required
+
+Do NOT add libraries just for the sake of adding them.
+
+Every dependency must have a purpose.
+
+---
+
+# 4. DESIGN DIRECTION
+
+The visual identity should communicate:
+
+## GREEN + INTELLIGENCE + PRECISION
+
+Primary visual language:
+
+* deep forest green
+* sophisticated off-white
+* soft natural greens
+* charcoal
+* muted gray
+* subtle lime/green accent
+* glass surfaces used sparingly
+* premium gradients
+* subtle grain/noise
+* organic curves
+* technical data visualisation
+
+Avoid:
+
+* excessive neon
+* childish illustrations
+* generic green templates
+* excessive rounded cards
+* huge amounts of glassmorphism
+* random gradients
+* stock-SaaS appearance
+* overly flashy animations
+* excessive shadows
+
+The design must feel mature and enterprise-grade.
+
+---
+
+# 5. TYPOGRAPHY
+
+Use a premium modern typography system.
+
+Preferred:
+
+* Inter
+* Geist
+* Manrope
+* Plus Jakarta Sans
+
+Use:
+
+* very large editorial headings
+* tight tracking
+* strong contrast
+* short paragraphs
+* generous whitespace
+
+Typography hierarchy should be extremely clear.
+
+Example:
+
+H1:
+80–120px desktop where appropriate.
+
+H2:
+52–76px.
+
+Body:
+17–20px.
+
+Small metadata:
+11–14px uppercase with letter spacing.
+
+Responsive typography is mandatory.
+
+---
+
+# 6. GLOBAL EXPERIENCE
+
+Implement:
+
+## Smooth scrolling
+
+Use Lenis.
+
+Scrolling should feel:
+
+* smooth
+* weighted
+* premium
+* natural
+
+Integrate Lenis correctly with GSAP ScrollTrigger.
+
+---
+
+# 7. PAGE LOADER
+
+Create a premium loading sequence.
+
+Concept:
+
+A minimal Hazel logo/wordmark appears.
+
+Then:
+
+HAZEL INDIA
+
+A subtle green progress line / circular indicator.
+
+Then the page reveals.
+
+Animation should be approximately:
+
+0.8–1.5 seconds.
+
+Do NOT make the loader annoying.
+
+Respect:
+
+prefers-reduced-motion.
+
+---
+
+# 8. CUSTOM CURSOR
+
+Desktop only.
+
+Create a subtle custom cursor.
+
+Normal:
+small dot.
+
+Hover interactive element:
+expand circle.
+
+For important CTA:
+slightly larger magnetic interaction.
+
+Do not make the cursor distracting.
+
+Disable on:
+
+* mobile
+* tablets where appropriate
+* touch devices
+
+---
+
+# 9. HEADER
+
+Create a premium floating/sticky navigation.
+
+Desktop:
+
+LEFT:
+Hazel India logo/wordmark.
+
+CENTER:
+About
+What we do
+HazelAI
+Impact
+Machinery
+
+RIGHT:
+Green Impact
+Get a Free Audit
+
+Header initially blends into hero.
+
+On scroll:
+
+* background becomes slightly opaque
+* subtle blur
+* thin border
+* height decreases
+* smooth transition
+
+Mobile:
+
+Hamburger button.
+
+Fullscreen / large navigation menu.
+
+Menu opening should use GSAP/Framer Motion.
+
+Navigation items should stagger in.
+
+---
+
+# 10. HERO — MAJOR VISUAL STATEMENT
+
+This is the most important section.
+
+Create a cinematic hero.
+
+Headline:
+
+"India's first AI-native green facility company"
+
+Supporting statement:
+
+"Cleaner spaces. Greener India. Smarter by design."
+
+Use the existing Hazel India content.
+
+Layout:
+
+LEFT:
+Massive editorial headline.
+
+Supporting paragraph.
+
+CTA buttons.
+
+RIGHT/BACKGROUND:
+A sophisticated abstract visualization representing:
+
+AI + facilities + environment + data.
+
+Possible visual:
+
+* flowing green particle field
+* abstract 3D organic sphere
+* digital facility network
+* environmental data visualization
+* subtle animated grid
+* sensor nodes
+* energy/water flow
+
+Do NOT create a cheesy AI robot.
+
+If using Three.js, keep it elegant.
+
+---
+
+# 11. HERO ANIMATION
+
+Timeline:
+
+Page loads.
+
+Background begins moving subtly.
+
+Headline reveals word-by-word or line-by-line.
+
+Paragraph fades upward.
+
+CTA buttons follow.
+
+Metrics reveal afterward.
+
+Use:
+
+GSAP
+ScrollTrigger
+Framer Motion
+
+Animation should feel cinematic, not like PowerPoint.
+
+---
+
+# 12. HERO METRICS
+
+Show:
+
+100%
+Green-certified chemistry
+
+28
+States we aim to serve
+
+24/7
+AI monitoring & dispatch
+
+Make the numbers visually dominant.
+
+On entering viewport:
+
+numbers should count up.
+
+Use subtle animated separators.
+
+---
+
+# 13. MARQUEE
+
+Add a horizontal moving brand statement.
+
+Example:
+
+AI-NATIVE FACILITY MANAGEMENT
+•
+GREEN OPERATIONS
+•
+SMARTER SPACES
+•
+LOWER IMPACT
+•
+MEASURABLE ESG
+
+Slow continuous movement.
+
+Pause/reduce movement for accessibility.
+
+---
+
+# 14. ABOUT SECTION
+
+Create an editorial section.
+
+Small eyebrow:
+
+GET TO KNOW US
+
+Headline:
+
+"Everything you want to know, in three tabs."
+
+Use the existing description.
+
+Create three interactive tabs/cards:
+
+01
+Planet
+
+02
+People
+
+03
+Intelligence
+
+Clicking each changes content with a smooth transition.
+
+Avoid conventional Bootstrap tabs.
+
+Make this feel like a premium product interaction.
+
+---
+
+# 15. SERVICES SECTION
+
+Title:
+
+"One partner for every space you care about."
+
+Create six service experiences:
+
+1. Eco cleaning & sanitation
+2. Technical & MEP upkeep
+3. Landscaping & green spaces
+4. Waste & recycling
+5. Security & smart access
+6. AI monitoring & ESG
+
+Do NOT simply make six static cards.
+
+Create an interactive service system.
+
+Desktop:
+
+Large vertical list.
+
+Hovering a service:
+
+* service expands
+* image/visual appears
+* description slides in
+* number changes
+* background subtly changes
+
+Mobile:
+
+Accordion-style interaction.
+
+Each service should have an elegant icon.
+
+Use Lucide icons or custom SVG.
+
+---
+
+# 16. SERVICE VISUALS
+
+Use premium environmental imagery or generated abstract visuals where assets are missing.
+
+Visual style:
+
+* modern architecture
+* green buildings
+* facilities
+* robotics
+* water
+* landscaping
+* people at work
+* industrial environments
+
+Images must feel editorial and premium.
+
+Use:
+
+image overlays
+parallax
+masked reveals
+clip-path transitions
+
+Do NOT use random stock-photo grids.
+
+---
+
+# 17. IMPACT / PROJECTIONS SECTION
+
+Create a sophisticated data-driven section.
+
+Headline:
+
+"Built for India's next generation of spaces."
+
+Show market metrics:
+
+140M+ sq ft
+10%+ FM market CAGR
+18% green offices
+
+Make them feel like data points in an intelligent system.
+
+Use animated charts/lines.
+
+Avoid generic bar charts.
+
+---
+
+# 18. ROADMAP
+
+Create an immersive horizontal timeline.
+
+Years:
+
+2022
+2025
+2027
+2030
+
+Each milestone should animate as the user scrolls.
+
+Desktop:
+
+Horizontal timeline.
+
+Mobile:
+
+Vertical timeline.
+
+As user scrolls:
+
+timeline line progresses.
+
+Milestone nodes activate.
+
+Cards reveal.
+
+Numbers animate.
+
+This should be one of the site's strongest sections.
+
+---
+
+# 19. MACHINERY SECTION
+
+Headline:
+
+"The machines behind a lighter footprint."
+
+Present:
+
+AI autonomous scrubbers
+Nanobubble water cleaning
+Water-recycling scrubbers
+IoT water & leak intelligence
+Automated greywater recycling
+HEPA + AI air quality
+
+Do not use basic cards.
+
+Create an interactive equipment showcase.
+
+Possible layout:
+
+Large central machine visual.
+
+Small navigation list on side.
+
+Selecting equipment changes:
+
+* visual
+* description
+* environmental metric
+* technology explanation
+
+Use smooth crossfades.
+
+---
+
+# 20. HAZELAI — HERO PRODUCT SECTION
+
+This should feel like a completely separate premium technology product.
+
+Headline:
+
+"Intelligence that makes clean predictable, provable and lighter on Earth."
+
+Create a dashboard-inspired visual.
+
+Display:
+
+Predict
+Sense
+Prove
+Serve
+
+Create four interactive states.
+
+Example:
+
+01 Predict
+
+Footfall
+Occupancy
+IoT sensors
+Dynamic task routing
+
+02 Sense
+
+AQI
+CO₂
+Water
+Energy
+
+03 Prove
+
+Carbon
+Waste
+Water
+ESG
+
+04 Serve
+
+Requests
+ETAs
+Quality
+AI concierge
+
+---
+
+# 21. HAZELAI VISUALIZATION
+
+Create a fake but realistic dashboard UI for presentation.
+
+It should NOT pretend to be an actual connected live dashboard unless backend data exists.
+
+Use visual demo data.
+
+Dashboard elements:
+
+* Air Quality
+* Water Usage
+* Energy
+* Waste diversion
+* Active tasks
+* Site health
+* Carbon impact
+
+Animate the charts subtly.
+
+Use:
+
+SVG
+CSS
+Framer Motion
+GSAP
+
+Avoid dashboard clutter.
+
+Think:
+
+Apple + Linear + modern enterprise SaaS.
+
+---
+
+# 22. GREEN PROMISE
+
+Create a dramatic dark/green section.
+
+Headline:
+
+"Facility management that gives back more than it takes."
+
+Metrics:
+
+−40%
+Water use
+
+90%
+Waste diverted
+
+0
+Toxic chemicals
+
+100%
+Staff trained & fairly paid
+
+Use huge typography.
+
+Each metric should animate independently.
+
+Add a subtle environmental background animation.
+
+---
+
+# 23. GREEN PLEDGE
+
+Create a visually strong pledge section.
+
+Show:
+
+Biodegradable chemistry
+Electric & manual equipment first
+Rainwater & greywater reuse
+Tree planted for every annual contract
+Living-wage work
+
+Use elegant vertical reveal animations.
+
+---
+
+# 24. HOW IT WORKS
+
+Create four-step process.
+
+01
+Free AI Audit
+
+02
+Smart Setup
+
+03
+Intelligent Delivery
+
+04
+Prove & Improve
+
+Instead of cards:
+
+Create a connected visual journey.
+
+As user scrolls:
+
+Step activates.
+
+A line progresses.
+
+Icon animates.
+
+Description appears.
+
+Metric / result appears.
+
+---
+
+# 25. COMPANY STORY
+
+Create a cinematic storytelling section.
+
+Use:
+
+"हरित"
+
+"A GREENER TOMORROW"
+
+Then reveal the Hazel India story.
+
+Use large editorial typography.
+
+Potential visual:
+
+animated leaf / earth / architectural environment.
+
+The story should feel emotional but still corporate.
+
+---
+
+# 26. CORE PILLARS
+
+Create four large sections:
+
+PLANET-FIRST
+PEOPLE WE VALUE
+INTELLIGENCE EVERYWHERE
+ACCESSIBLE TO ALL
+
+Each pillar gets a unique subtle animation.
+
+Hover:
+
+Typography shifts.
+
+Background image/texture changes.
+
+---
+
+# 27. SECTOR SECTION
+
+Create:
+
+"One partner for every space you care about."
+
+Sectors:
+
+Home & Residential
+Commercial & Office
+Industrial & Technical
+Landscaping & Green Spaces
+Waste & Sustainability
+Security & Smart Access
+
+Use a premium interactive selector.
+
+On hover/click:
+
+sector visual changes.
+
+---
+
+# 28. LEAD CAPTURE
+
+This is a critical conversion section.
+
+Headline:
+
+"Let's build a greener India together."
+
+Subtext:
+
+"Tell us about your space. We'll send a free facility audit and a green plan within 48 hours."
+
+Form:
+
+Name
+Company
+Email
+Phone
+Space type
+Message
+
+Space options:
+
+Home / apartment
+Office / commercial space
+Factory / industrial site
+Community / housing society
+
+CTA:
+
+"Request my free green audit"
+
+Implement proper validation.
+
+Show:
+
+loading state
+success state
+error state
+
+Do not fake form submission.
+
+If backend/API is unavailable, structure the code cleanly so an API endpoint can be connected later.
+
+---
+
+# 29. CTA MICRO-INTERACTIONS
+
+Buttons must feel premium.
+
+On hover:
+
+* magnetic movement
+* icon movement
+* subtle background transition
+* arrow slides
+
+On click:
+
+small tactile animation.
+
+Do not overdo it.
+
+---
+
+# 30. FOOTER
+
+Create a huge premium footer.
+
+Include:
+
+Hazel India
+
+"Cleaner spaces. Greener planet. Valued people — everywhere."
+
+Sections:
+
+Services
+Company
+Connect
+Portals
+
+Customer Portal
+Operations Console
+Site Admin
+
+Email:
+
+[hello@hazelindia.com](mailto:hello@hazelindia.com)
+
+Phone:
+
++91 00000 00000
+
+Social:
+
+LinkedIn
+Instagram
+
+Use the existing content.
+
+Footer should visually feel like the conclusion of the story.
+
+---
+
+# 31. FOOTER ANIMATION
+
+As user reaches footer:
+
+Large Hazel logo slowly reveals.
+
+Green gradient moves subtly.
+
+Footer links stagger in.
+
+Copyright fades in last.
+
+---
+
+# 32. SCROLL ANIMATION SYSTEM
+
+Use a consistent animation language.
+
+Every section should have:
+
+* reveal animation
+* stagger
+* image reveal
+* typography animation
+* subtle parallax
+
+Use GSAP ScrollTrigger for complex scroll choreography.
+
+Use Framer Motion for:
+
+* component interactions
+* hover
+* tabs
+* menus
+* modals
+* state transitions
+
+Do NOT randomly mix animation libraries for the same animation.
+
+---
+
+# 33. IMPORTANT — ANIMATION QUALITY
+
+Animations must have:
+
+* proper easing
+* proper duration
+* natural acceleration/deceleration
+* no jitter
+* no layout shift
+* no scroll locking bugs
+* no animation running unnecessarily
+
+Preferred easing:
+
+power2.out
+power3.out
+expo.out
+custom cubic-bezier where appropriate
+
+Avoid:
+
+linear UI animations
+bouncy generic animations
+excessive spring physics
+
+---
+
+# 34. RESPONSIVE DESIGN
+
+Must be perfect on:
+
+360px
+375px
+390px
+430px
+768px
+1024px
+1280px
+1440px
+1920px+
+
+Test:
+
+iPhone
+Android
+tablet
+laptop
+large monitor
+
+Mobile is NOT simply a smaller desktop.
+
+Recompose layouts where necessary.
+
+---
+
+# 35. MOBILE ANIMATIONS
+
+Reduce expensive animations on mobile.
+
+Disable:
+
+* custom cursor
+* excessive parallax
+* heavy WebGL where unnecessary
+
+Keep:
+
+* typography reveals
+* fade/slide
+* lightweight transforms
+
+---
+
+# 36. ACCESSIBILITY
+
+Implement:
+
+* semantic HTML
+* keyboard navigation
+* visible focus states
+* aria labels
+* alt text
+* proper heading hierarchy
+* reduced motion support
+
+If:
+
+prefers-reduced-motion: reduce
+
+Then substantially reduce animations.
+
+---
+
+# 37. PERFORMANCE
+
+This is extremely important.
+
+Optimize:
+
+* image loading
+* fonts
+* JavaScript
+* animation loops
+* WebGL
+* layout calculations
+
+Use:
+
+lazy loading
+dynamic imports
+code splitting
+GPU-friendly transforms
+
+Avoid animating:
+
+width
+height
+top
+left
+
+Prefer:
+
+transform
+opacity
+
+Do not create memory leaks with:
+
+ScrollTrigger
+event listeners
+animation loops
+
+Clean up everything on unmount.
+
+---
+
+# 38. SEO
+
+Implement:
+
+Title:
+
+Hazel India — AI-Powered Green Facility Management
+
+Meta description based on existing Hazel India positioning.
+
+OpenGraph metadata.
+
+Semantic structure.
+
+Proper H1/H2/H3 hierarchy.
+
+Favicon.
+
+Robots configuration if appropriate.
+
+---
+
+# 39. COMPONENT ARCHITECTURE
+
+Create reusable components such as:
+
+Navbar
+MobileMenu
+PageLoader
+CustomCursor
+Hero
+MetricCounter
+Marquee
+SectionHeading
+AboutTabs
+ServicesExplorer
+ImpactStats
+Roadmap
+MachineryExplorer
+HazelAI
+DashboardPreview
+GreenPromise
+ProcessTimeline
+SectorExplorer
+LeadForm
+Footer
+
+Create an animation utility layer.
+
+Example:
+
+animations/
+reveal.ts
+parallax.ts
+magnetic.ts
+counter.ts
+scroll.ts
+
+Avoid putting all animation code inside one component.
+
+---
+
+# 40. CODE QUALITY
+
+Use:
+
+TypeScript.
+
+Strong types.
+
+Reusable components.
+
+No giant 2000-line component.
+
+No duplicated code.
+
+No unnecessary useEffect.
+
+No console errors.
+
+No TypeScript errors.
+
+No ESLint errors.
+
+No broken imports.
+
+No placeholder lorem ipsum.
+
+No TODOs for core functionality.
+
+---
+
+# 41. IMAGES / ASSETS
+
+Inspect existing assets first.
+
+If appropriate assets are missing:
+
+Use suitable high-quality imagery.
+
+Do NOT use random unrelated stock images.
+
+Image treatment should use:
+
+* large editorial crops
+* dark overlays
+* subtle gradients
+* rounded corners only where appropriate
+* masked image reveals
+
+---
+
+# 42. VISUAL DETAILS
+
+Add subtle premium details:
+
+* grain/noise overlay
+* thin borders
+* micro-grid
+* tiny metadata labels
+* section numbers
+* animated lines
+* green glow
+* subtle shadows
+* sophisticated whitespace
+
+But maintain restraint.
+
+The website should feel:
+
+"quietly expensive"
+
+rather than:
+
+"visually noisy."
+
+---
+
+# 43. PAGE TRANSITIONS
+
+If the application has multiple pages/routes:
+
+Implement smooth page transitions.
+
+Use:
+
+Framer Motion AnimatePresence
+
+Transition:
+
+old page exits subtly.
+
+new page reveals.
+
+Do not create excessive loading time.
+
+---
+
+# 44. ERROR / EMPTY STATES
+
+For dynamic content:
+
+Create professional:
+
+Loading
+Error
+Empty
+
+states.
+
+Never leave blank screens.
+
+---
+
+# 45. FINAL QA
+
+After implementation:
+
+Run:
+
+npm install
+
+Then:
+
+npm run build
+
+Then:
+
+npm run lint
+
+Fix every error.
+
+Check browser console.
+
+Check:
+
+* mobile menu
+* navigation
+* buttons
+* forms
+* scroll animations
+* counters
+* roadmap
+* tabs
+* service interactions
+* footer
+* responsive layouts
+
+No broken functionality.
+
+---
+
+# 46. FINAL POLISH PASS
+
+After everything works, do a second visual pass.
+
+Ask:
+
+Does this look like a ₹10 lakh+ premium corporate website?
+
+Does the first 5 seconds communicate:
+
+AI
+GREEN
+FACILITY MANAGEMENT
+TRUST
+
+Are the animations smooth?
+
+Are sections visually differentiated?
+
+Is there enough whitespace?
+
+Are CTAs obvious?
+
+Does mobile feel premium?
+
+Are there any generic template-looking components?
+
+Remove anything that feels generic.
+
+---
+
+# 47. IMPORTANT CREATIVE RULE
+
+Do NOT blindly follow this prompt as a checklist.
+
+Think like a:
+
+Creative Director
++
+Senior Product Designer
++
+Award-winning Frontend Engineer.
+
+The final experience must tell one continuous story:
+
+PROBLEM
+↓
+HAZEL'S BELIEF
+↓
+GREEN OPERATIONS
+↓
+INTELLIGENT TECHNOLOGY
+↓
+MEASURABLE IMPACT
+↓
+THE FUTURE
+↓
+CALL TO ACTION
+
+The website should feel like a journey rather than a collection of sections.
+
+---
+
+# 48. DO NOT
+
+Do NOT:
+
+* create generic SaaS cards everywhere
+* use excessive gradients
+* use excessive rounded corners
+* use cheesy AI imagery
+* use cartoon illustrations
+* use random animations
+* use huge amounts of text
+* create inaccessible interactions
+* sacrifice performance for animation
+* use fake testimonials
+* invent customers
+* invent certifications
+* invent awards
+* invent statistics
+* invent API data
+* pretend demo dashboard data is live
+* add meaningless 3D effects
+
+---
+
+# 49. FINAL OUTPUT
+
+When finished, provide a concise implementation summary containing:
+
+1. What was redesigned
+2. Libraries installed
+3. Main components created
+4. Animation architecture
+5. Responsive behavior
+6. Performance optimizations
+7. SEO implementation
+8. Form/API integration status
+9. Commands to run the project
+
+Most importantly:
+
+**Actually implement the website in the repository.**
+
+Do not merely describe what should be done.
+
+Inspect the project first, then build it end-to-end.
+
+Make the final website feel like a premium Indian climate-tech / AI infrastructure brand that could confidently present itself to enterprise clients, investors and facility-management decision makers.
