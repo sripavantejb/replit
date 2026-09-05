@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Hazel India"
+description = "A premium climate-tech and AI-native facility management website for Hazel India, combining sustainable operations, intelligent monitoring, and enterprise-ready service storytelling."
+version = "1.0.0"
+id = "artifacts/hazel-india"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25785
+
+[services.development]
+run = "pnpm --filter @workspace/hazel-india run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/hazel-india", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/hazel-india/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25785"
+BASE_PATH = "/"
